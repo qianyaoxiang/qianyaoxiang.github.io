@@ -1,13 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>员工心理素质提升培训计划</title>
+  <!-- 修正CSS文件路径 -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- 封面页 -->
+  <div class="cover">
+    <img src="cover-image.jpg" alt="Cover Image">
+    <h1>以员工心理素质提升，促公司人力资源提效培训计划</h1>
+    <button class="enter-btn">进入</button>
+  </div>
+
+  <!-- 目录页 -->
+  <div class="menu">
+    <ul>
+      <li><a href="#project-background">项目背景</a></li>
+      <li><a href="#course-introduction">课程介绍</a></li>
+      <li><a href="#expert-team">专家团队</a></li>
+      <li><a href="#training-arrangement">培训安排</a></li>
+      <li><a href="#expected-results">预期效果</a></li>
+      <li><a href="#contact-us">联系我们</a></li>
+    </ul>
+  </div>
+
+  <!-- 项目背景页 -->
+  <div class="page" id="project-background">
+    <h2>项目背景</h2>
+    <p>随着社会的发展，企业竞争压力越来越大，员工心理健康问题日益凸显。本培训计划旨在提升员工心理素质，促进公司人力资源提效。</p>
+    <img src="background-image.jpg" alt="Project Background Image">
+  </div>
+
+  <!-- 课程介绍页 -->
+  <div class="page" id="course-introduction">
+    <h2>课程介绍</h2>
+    <ul>
+      <li>心理健康知识普及</li>
+      <li>压力管理与情绪调节</li>
+      <li>沟通技巧与人际关系处理</li>
+      <li>职业发展与规划</li>
+    </ul>
+    <img src="course-image.jpg" alt="Course Image">
+  </div>
+
+  <!-- 专家团队页 -->
+  <div class="page" id="expert-team">
+    <h2>专家团队</h2>
+    <div class="expert">
+      <img src="expert1.jpg" alt="Expert 1">
+      <h3>专家姓名</h3>
+      <p>职称：专家职称</p>
+      <p>简介：专家简介</p>
+    </div>
+    <div class="expert">
+      <img src="expert2.jpg" alt="Expert 2">
+      <h3>专家姓名</h3>
+      <p>职称：专家职称</p>
+      <p>简介：专家简介</p>
+    </div>
+  </div>
+
+  <!-- 培训安排页 -->
+  <div class="page" id="training-arrangement">
+    <h2>培训安排</h2>
+    <table>
+      <tr>
+        <th>时间</th>
+        <th>内容</th>
+        <th>地点</th>
+      </tr>
+      <tr>
+        <td>2023-07-01</td>
+        <td>心理健康知识普及</td>
+        <td>线上</td>
+      </tr>
+      <tr>
+        <td>2023-07-02</td>
+        <td>压力管理与情绪调节</td>
+        <td>线下</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- 预期效果页 -->
+  <div class="page" id="expected-results">
+    <h2>预期效果</h2>
+    <p>通过本培训计划，预期员工心理健康水平将得到显著提升，工作效率和团队协作能力也将得到提高。</p>
+    <img src="results-image.jpg" alt="Expected Results Image">
+  </div>
+
+  <!-- 联系我们页 -->
+  <div class="page" id="contact-us">
+    <h2>联系我们</h2>
+    <p>如果您有任何疑问或需要进一步了解，请随时联系我们。</p>
+    <p>电话：123-456-7890</p>
+    <p>邮箱：info@example.com</p>
+  </div>
+
+  <!-- 修正JS文件路径 -->
+  <script src="/script.js"></script>
+</body>
 </html>
